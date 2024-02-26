@@ -1,4 +1,4 @@
-public class SwitchVariable {
+public class C_SwitchVariable {
     public static void main(String[] args) {
         char myChar = 'A';
         char myChar2 = 'B';

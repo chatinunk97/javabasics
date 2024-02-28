@@ -13,7 +13,18 @@ public class J_WhileLoopScanner {
             System.out.print("Entr your name : ");
             name = scanner.nextLine();
         }
-        scanner.close();
+
         System.out.println(name);
+
+        // Do while
+        String country;
+        do {
+            System.out.println("Give me a country");
+            country = scanner.nextLine();
+            if (!country.isBlank()) {
+                break;
+            }
+        } while (true);
+        scanner.close();
     }
 }

@@ -10,5 +10,13 @@ public class R_OOP {
         human1.eat();
         human2.drink();
         new R_DiceRoller();
+
+        R_OVRConstructor fullPizza = new R_OVRConstructor("thic", "tomato", "american", "peporoni");
+        System.out.println(fullPizza.bread);
+        System.out.println(fullPizza.sauce);
+
+        R_OVRConstructor cheapPizza = new R_OVRConstructor("thic");
+        System.out.println(cheapPizza.bread);
+        System.out.println(cheapPizza.sauce);
     }
 }

@@ -15,14 +15,15 @@ public class U_Abstract {
 abstract class VehicleAbstract {
     // abstract Body is not allow in an abstract method
     abstract void go();
+
     // normal method can have a body
-    void testMethod(){
-        System.out.println('test?');
+    void testMethod() {
+        System.out.println("test?");
     }
 }
 
 class CarAbstract extends VehicleAbstract {
-    
+
     @Override
     void go() {
         System.out.println("Go method in CarAbstract ");

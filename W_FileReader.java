@@ -18,7 +18,7 @@ public class W_FileReader {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("--------- END ---------");
+            System.out.println("\n--------- END ---------");
         }
     }
 }
